@@ -1,3 +1,6 @@
 # Mykhailo Serdiuk
 
-## Contacts
+### Frontend Developer
+
+### Contacts:
+**E-mail:** misha.ws@gmail.com<br>
