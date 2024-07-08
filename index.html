@@ -1,11 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Mykhailo Serdiuk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico" />
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  111
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Summary</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Code</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Courses</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Education</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ==================================================== -->
+    <main class="page">
+      <section class="page__main-block main-block">
+        <div class="main-block__container">
+          <h1 class="main-block__title">Mykhailo Serdiuk</h1>
+          <h2 class="main-block__subtitle">Learning HTML/CSS/JavaScript</h2>
+          <div class="main-block__image">
+            <img src="images/cv-foto.jpg" alt="Image of Mykhailo Serdiuk">
+          </div>
+        </div>
+      </section>
+
+      <section class="page__contacts contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__secondary-title">Contacts:</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="https://t.me/iron_mikes" target="_blank">Telegram</a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://discordapp.com/users/misha_ms" target="_blank">Discord</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="page__summary summary">
+        <div class="summary__container">
+          <h2 class="summary__title">Summary</h2>
+          <p class="summary__text">
+            I used to make sites on Joomla and WordPress at an amateur level, but that was a long time ago.<br>
+            I like Frontend technologies, because creating beautiful and useful sites and applications brings me
+            pleasure.
+          </p>
+        </div>
+      </section>
+
+      <section class="page__skills skills">
+        <div class="skills__container">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Elementary JavaScript</li>
+            <li class="skills__item">Figma</li>
+            <li class="skills__item">Git, GitHub</li>
+            <li class="skills__item">HTML</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="page__code code">
+        <div class="code__container">
+          <h2 class="code__title">Code</h2>
+          <pre>
+            <code class="js-code">
+              let myAge = 47;
+              let myName = `Misha`;
+              let myInfo = `Name: ${myName}, age: ${myAge}`;
+              console.log(myInfo);
+            </code>
+          </pre>
+        </div>
+      </section>
+
+      <section class="page__courses courses">
+        <div class="courses__container">
+          <h2 class="courses__title">Courses</h2>
+          <ul class="courses__list">
+            <li class="courses__item"><a href="https://www.udemy.com/course/advanced-css-and-sass/"
+                target="_blank">Udemy course</a></li>
+
+            <li class="courses__item"><a href="https://edu.fls.guru/" target="_blank">Freelancer Life Style</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="page__projects projects">
+        <div class="projects__container">
+          <h2 class="projects__title">Projects</h2>
+          <p class="projects__text">Will be soon...</p>
+        </div>
+      </section>
+
+      <section class="page__education education">
+        <div class="education__container">
+          <h2 class="education__title">Education</h2>
+          <div class="education__university">Kyiv National Linguistic University</div>
+          <div class="education__faculty">Faculty of German Language</div>
+        </div>
+      </section>
+
+      <section class="page__language language">
+        <div class="language__container">
+          <h2 class="language__title">Spoken Languages</h2>
+          <ul class="language__list">
+            <li class="language__item">Ukrainian: native</li>
+            <li class="language__item">English : A2</li>
+            <li class="language__item">German: B1</li>
+            <li class="language__item">Russian: fluent</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================================================== -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="year">2024</div>
+        <a href="https://github.com/mishawebdev" target="_blank">GitHub</a>
+        <a href="https://rs.school/courses/javascript-ru" class="link-logo" target="_blank"><img class="logo" src="images/rs-school-logo.png" alt="logo of rs school"></a>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,162 @@
+[class*="__container"] {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: #f3f4f6;
+  font-family: "Rubik", sans-serif;
+  color: #444444;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 970px;
+  padding: 15px 20px;
+  gap: 15px;
+}
+
+.menu__link {
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 5px 5px 10px;
+  transition: all 0.3s;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu__link:hover {
+  background-color: #7d8ca0;
+  color: #fff;
+  
+}
+
+.menu__link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #0deec8;
+  top: 100%;
+  left: 0;
+  transform-origin: 100% 50%;
+  transform: scale3d(0, 1, 1);
+  transition: transform 0.3s;
+}
+
+.menu__link:hover::before {
+  transform-origin: 0% 50%;
+  transform: scale3d(1, 1, 1);
+}
+
+.main-block {
+}
+
+.main-block__title {
+  font-size: 32px;
+}
+
+.main-block__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border-bottom: dashed 2px #ccc;
+}
+
+.main-block__subtitle {
+  font-size: 20px;
+
+}
+
+.main-block__image img {
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.contacts__container,
+.summary__container,
+.skills__container,
+.code__container,
+.courses__container,
+.projects__container,
+.education__container,
+.language__container {
+  border-bottom: dashed 2px #ccc;
+}
+
+.contacts__list {
+  margin-bottom: 20px;
+}
+
+.contacts__secondary-title,
+.summary__title,
+.skills__title,
+.code__title,
+.courses__title,
+.projects__title,
+.education__title,
+.language__title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  padding-top: 50px;
+}
+
+.contacts__item,
+.courses__item,
+.language__item {
+  margin-bottom: 15px;
+}
+
+.summary__text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.skills__item {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.js-code {
+  font-size: 19px;
+}
+
+.courses__item {
+  font-size: 19px;
+}
+
+.projects__text {
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+.education__university,
+.education__faculty {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.language__item {
+  font-size: 19px;
+}
+
+.footer__container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  font-size: 19px;
+}
+
+.link-logo img{
+  width: 80px;
+}
