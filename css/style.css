@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 [class*="__container"] {
   max-width: 1000px;
   margin: 0 auto;
@@ -52,9 +56,6 @@ body {
 .menu__link:hover::before {
   transform-origin: 0% 50%;
   transform: scale3d(1, 1, 1);
-}
-
-.main-block {
 }
 
 .main-block__title {
